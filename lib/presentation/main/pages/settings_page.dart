@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+
+import '/presentation/resources/app_strings.dart';
+
+class SettingsPage extends StatefulWidget {
+  const SettingsPage({super.key});
+
+  @override
+  State<SettingsPage> createState() => _SettingsPageState();
+}
+
+class _SettingsPageState extends State<SettingsPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Text(
+        AppStrings.setting,
+        style: Theme.of(context).textTheme.titleLarge,
+      ),
+    );
+  }
+}

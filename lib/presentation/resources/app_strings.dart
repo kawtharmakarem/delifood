@@ -1,0 +1,35 @@
+class AppStrings {
+  AppStrings._();
+  static const String noRoute = "Undefined Route";
+  static const String logoText = "DeliFood";
+  static const String getStarted = "Get Started";
+  static const String logoText1 = "Delivery App";
+  static const String login = "Login";
+  static const String signUp = "SignUp";
+  static const String forgotPassword = "Forgot Password ?";
+  static const String email = "Email";
+  static const String password = "Password";
+  static const String userName = "UserName";
+  static const String profile = "Profile";
+  static const String english = "English";
+  static const String arabic = "Arabic";
+  static const String emailRequired = "Email is required";
+  static const String passwordRequired = "Password is required";
+  static const String loading = "Loading...";
+  static const String retry = "Retry";
+  static const String ok = "Ok";
+  static const String phoneNumber = "Phone Number";
+  static const String success = "Success";
+  static const String sendEmail = "Send Email";
+  static const String userNameInvalid = "UserName is Invalid";
+  static const String mobileNumberInvalid = "MobileNumber is Invalid";
+  static const String emailInvalid = "Email is Invalid";
+  static const String passwordInvalid = "Password is Invalid";
+  static const String home = "Home";
+  static const String search = "Search Page";
+  static const String notifications = "Notifications Page";
+  static const String setting = "Setting Page";
+  static const String welcomeText = "Let's eat\nQuality food 🙂";
+  static const String searchForFood = "your favorite food";
+  static const String noDetails = "No Details to Show";
+}
